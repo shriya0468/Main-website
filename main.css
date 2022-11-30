@@ -1,0 +1,90 @@
+
+:root{
+    --main-color:#b92b2b;
+    --mina-coor-darker:#941e1a;
+    --white:#ffffff;
+    --dropdown-radius: 50px;
+    
+
+}
+
+.text-main-color{
+    color:var(--main-color)
+
+}
+
+.border-main-color{
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: #b92b2b;
+}
+.bg-main-color{
+    background-color: #b92b2b;
+}
+#button1{
+    border-bottom-left-radius: var(--dropdown-radius);
+    border-top-left-radius: var(--dropdown-radius);
+}
+
+#button2{
+    border-bottom-right-radius:var(--dropdown-radius); 
+    border-top-right-radius:var(--dropdown-radius); 
+    border-left-style: solid;
+    border-left-color: rgb(83,83,83);
+    border-width: 7px;
+    color: white;
+}
+
+.bg-second-color{
+    color: white;
+}
+
+#left-list{
+    margin-left: 20px;
+}
+
+#left-list a{
+    text-decoration: none;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+}
+
+#left-list img{
+    width:20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.border-gray{
+    border-style: solid;
+    border-color: rgb(221,221,221);
+    border-width: 3px;
+}
+.text-gray-dark{
+    color: rgb(117,117,117);
+}
+
+.hover-dark:hover{
+    background-color: rgb(233,233,233);
+    border-radius: 5px;
+}
+
+.post-profile{
+    width:55px;
+    height: 55px;
+    padding: 7px;
+}
+
+.post-button:hover{
+    background-color: rgb(238,238,238);
+}
+
+.left-button{
+    border-bottom-right:var(--dropdown-radius);
+    border-top-right-right-radius:var(--dropdown-radius);
+
+}
+
+.black-color{
+    color: black;
+}
